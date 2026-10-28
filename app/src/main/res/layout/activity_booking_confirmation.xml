@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="16dp"
+    tools:context=".activities.BookingConfirmationActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Success Icon -->
+        <ImageView
+            android:id="@+id/imgSuccess"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/ic_success"
+            android:contentDescription="Booking Successful" />
+
+        <!-- Success Title -->
+        <TextView
+            android:id="@+id/tvBookingSuccess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Booking Confirmed!"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/teal_700"
+            android:layout_marginTop="16dp" />
+
+        <!-- Confirmation Message -->
+        <TextView
+            android:id="@+id/tvBookingMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your flight has been successfully booked."
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp"
+            android:gravity="center" />
+
+        <!-- Booking Details Card -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:padding="16dp"
+            android:layout_marginTop="24dp"
+            android:elevation="4dp">
+
+            <TextView
+                android:id="@+id/tvBookingId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Booking ID: BK12345"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tvFlightName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Airline: Indigo Airlines"
+                android:textSize="15sp"
+                android:layout_marginTop="6dp" />
+
+            <TextView
+                android:id="@+id/tvFlightRoute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="From: Mumbai → To: Delhi"
+                android:textSize="15sp"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:id="@+id/tvFlightTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Departure: 10:00 AM | Arrival: 12:30 PM"
+                android:textSize="15sp"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:id="@+id/tvPassengerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Passenger: John Doe"
+                android:textSize="15sp"
+                android:layout_marginTop="6dp" />
+
+            <TextView
+                android:id="@+id/tvSeatClass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seat Class: Economy"
+                android:textSize="15sp"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:id="@+id/tvTotalAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total: $199.99"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/teal_700" />
+        </LinearLayout>
+
+        <!-- Buttons -->
+        <Button
+            android:id="@+id/btnViewMyBookings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View My Bookings"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/teal_700"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnBackToHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back to Home"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/gray"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</ScrollView>

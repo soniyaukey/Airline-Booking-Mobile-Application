@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "686755211257",
+    "project_id": "airlinebooking-d1b7b",
+    "storage_bucket": "airlinebooking-d1b7b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686755211257:android:77b72955a24365628f3f28",
+        "android_client_info": {
+          "package_name": "com.example.airlinebookingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs2xh43CRCVZy7v-lX2f04Lc9RPpzdnNU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

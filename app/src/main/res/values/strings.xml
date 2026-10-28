@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AirLineBookingApp</string>
+
+        <string-array name="seat_class_options">
+            <item>Economy</item>
+            <item>Business</item>
+            <item>First Class</item>
+        </string-array>
+</resources>
